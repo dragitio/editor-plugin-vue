@@ -216,8 +216,8 @@ var __vue_staticRenderFns__ = [];
 
 const __vue_inject_styles__ = function (inject) {
   if (!inject) return;
-  inject("data-v-6d97b15c_0", {
-    source: ".dragit-editor[data-v-6d97b15c]{display:block;width:400px;margin:25px auto;border:1px solid #ccc;background:#eaeaea;text-align:center;padding:25px}.dragit-editor p[data-v-6d97b15c]{margin:0 0 1em}",
+  inject("data-v-5e82482c_0", {
+    source: ".dragit-editor[data-v-5e82482c]{display:block;width:400px;margin:25px auto;border:1px solid #ccc;background:#eaeaea;text-align:center;padding:25px}.dragit-editor p[data-v-5e82482c]{margin:0 0 1em}",
     map: undefined,
     media: undefined
   });
@@ -225,7 +225,7 @@ const __vue_inject_styles__ = function (inject) {
 /* scoped */
 
 
-const __vue_scope_id__ = "data-v-6d97b15c";
+const __vue_scope_id__ = "data-v-5e82482c";
 /* module identifier */
 
 const __vue_module_identifier__ = undefined;
@@ -250,7 +250,7 @@ var entry_esm = /*#__PURE__*/(() => {
   const installable = __vue_component__; // Attach install function executed by Vue.use()
 
   installable.install = Vue => {
-    Vue.component('DragitEditor', installable);
+    Vue.component('DragitEditorPlugin', installable);
   };
 
   return installable;
