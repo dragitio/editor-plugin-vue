@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <dragit-editor :options="options" style="height: 100vh" />
+    <dragit-editor-plugin :options="options" style="height: 100vh" />
   </div>
 </template>
 
 <script>
 import Vue from "vue";
-import DragitEditor from "@/dragit-editor.vue";
+import DragitEditorPlugin from "@/dragit-editor-plugin.vue";
 
 export default Vue.extend({
   name: "ServeDev",
   components: {
-    DragitEditor,
+    DragitEditorPlugin,
   },
   computed: {
     options() {
