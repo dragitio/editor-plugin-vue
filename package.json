@@ -1,6 +1,6 @@
 {
     "name": "@dragit/editor-plugin-vue",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "license": "MIT",
     "author": "Jiří Žižka",
     "description": "Dragit Editor Plugin for Vue.js",
