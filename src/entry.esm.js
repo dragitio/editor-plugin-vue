@@ -1,5 +1,5 @@
 // Import vue component
-import component from '@/dragit-editor-plugin.vue';
+import component from '@/DragitEditorPlugin.vue';
 
 // Default export is installable instance of component.
 // IIFE injects install function into component, allowing component

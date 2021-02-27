@@ -6,7 +6,7 @@
 
 <script>
 import Vue from "vue";
-import DragitEditorPlugin from "@/dragit-editor-plugin.vue";
+import DragitEditorPlugin from "@/DragitEditorPlugin.vue";
 
 export default Vue.extend({
   name: "ServeDev",
